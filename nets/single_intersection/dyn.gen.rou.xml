@@ -1,0 +1,54 @@
+<routes>
+	<route id="r_ns" edges="npn_nt1 nt1_nps"/>
+	<route id="r_sn" edges="nps_nt1 nt1_npn"/>
+	<route id="r_we" edges="npw_nt1 nt1_npe"/>
+	<route id="r_ew" edges="npe_nt1 nt1_npw"/>
+	<flow id="ns_300" route="r_ns" begin="0" end="300" probability="0.1" departPos="free"/>
+ 	<flow id="sn_300" route="r_sn" begin="0" end="300" probability="0.1" departPos="free"/>
+ 	<flow id="we_300" route="r_we" begin="0" end="300" probability="0.1" departPos="free"/>
+ 	<flow id="ew_300" route="r_ew" begin="0" end="300" probability="0.1" departPos="free"/>
+ 	<flow id="ns_600" route="r_ns" begin="300" end="600" probability="0.175" departPos="free"/>
+ 	<flow id="sn_600" route="r_sn" begin="300" end="600" probability="0.175" departPos="free"/>
+ 	<flow id="we_600" route="r_we" begin="300" end="600" probability="0.175" departPos="free"/>
+ 	<flow id="ew_600" route="r_ew" begin="300" end="600" probability="0.175" departPos="free"/>
+ 	<flow id="ns_900" route="r_ns" begin="600" end="900" probability="0.225" departPos="free"/>
+ 	<flow id="sn_900" route="r_sn" begin="600" end="900" probability="0.225" departPos="free"/>
+ 	<flow id="we_900" route="r_we" begin="600" end="900" probability="0.225" departPos="free"/>
+ 	<flow id="ew_900" route="r_ew" begin="600" end="900" probability="0.225" departPos="free"/>
+ 	<flow id="ns_1200" route="r_ns" begin="900" end="1200" probability="0.25" departPos="free"/>
+ 	<flow id="sn_1200" route="r_sn" begin="900" end="1200" probability="0.25" departPos="free"/>
+ 	<flow id="we_1200" route="r_we" begin="900" end="1200" probability="0.25" departPos="free"/>
+ 	<flow id="ew_1200" route="r_ew" begin="900" end="1200" probability="0.25" departPos="free"/>
+ 	<flow id="ns_1500" route="r_ns" begin="1200" end="1500" probability="0.1875" departPos="free"/>
+ 	<flow id="sn_1500" route="r_sn" begin="1200" end="1500" probability="0.1875" departPos="free"/>
+ 	<flow id="we_1500" route="r_we" begin="1200" end="1500" probability="0.1875" departPos="free"/>
+ 	<flow id="ew_1500" route="r_ew" begin="1200" end="1500" probability="0.1875" departPos="free"/>
+ 	<flow id="ns_1800" route="r_ns" begin="1500" end="1800" probability="0.125" departPos="free"/>
+ 	<flow id="sn_1800" route="r_sn" begin="1500" end="1800" probability="0.125" departPos="free"/>
+ 	<flow id="we_1800" route="r_we" begin="1500" end="1800" probability="0.125" departPos="free"/>
+ 	<flow id="ew_1800" route="r_ew" begin="1500" end="1800" probability="0.125" departPos="free"/>
+ 	<flow id="ns_2100" route="r_ns" begin="1800" end="2100" probability="0.0625" departPos="free"/>
+ 	<flow id="sn_2100" route="r_sn" begin="1800" end="2100" probability="0.0625" departPos="free"/>
+ 	<flow id="we_2100" route="r_we" begin="1800" end="2100" probability="0.0625" departPos="free"/>
+ 	<flow id="ew_2100" route="r_ew" begin="1800" end="2100" probability="0.0625" departPos="free"/>
+ 	<flow id="ns_2400" route="r_ns" begin="2100" end="2400" probability="0.175" departPos="free"/>
+ 	<flow id="sn_2400" route="r_sn" begin="2100" end="2400" probability="0.175" departPos="free"/>
+ 	<flow id="we_2400" route="r_we" begin="2100" end="2400" probability="0.175" departPos="free"/>
+ 	<flow id="ew_2400" route="r_ew" begin="2100" end="2400" probability="0.175" departPos="free"/>
+ 	<flow id="ns_2700" route="r_ns" begin="2400" end="2700" probability="0.2" departPos="free"/>
+ 	<flow id="sn_2700" route="r_sn" begin="2400" end="2700" probability="0.2" departPos="free"/>
+ 	<flow id="we_2700" route="r_we" begin="2400" end="2700" probability="0.2" departPos="free"/>
+ 	<flow id="ew_2700" route="r_ew" begin="2400" end="2700" probability="0.2" departPos="free"/>
+ 	<flow id="ns_3000" route="r_ns" begin="2700" end="3000" probability="0.225" departPos="free"/>
+ 	<flow id="sn_3000" route="r_sn" begin="2700" end="3000" probability="0.225" departPos="free"/>
+ 	<flow id="we_3000" route="r_we" begin="2700" end="3000" probability="0.225" departPos="free"/>
+ 	<flow id="ew_3000" route="r_ew" begin="2700" end="3000" probability="0.225" departPos="free"/>
+ 	<flow id="ns_3300" route="r_ns" begin="3000" end="3300" probability="0.075" departPos="free"/>
+ 	<flow id="sn_3300" route="r_sn" begin="3000" end="3300" probability="0.075" departPos="free"/>
+ 	<flow id="we_3300" route="r_we" begin="3000" end="3300" probability="0.075" departPos="free"/>
+ 	<flow id="ew_3300" route="r_ew" begin="3000" end="3300" probability="0.075" departPos="free"/>
+ 	<flow id="ns_3600" route="r_ns" begin="3300" end="3600" probability="0.025" departPos="free"/>
+ 	<flow id="sn_3600" route="r_sn" begin="3300" end="3600" probability="0.025" departPos="free"/>
+ 	<flow id="we_3600" route="r_we" begin="3300" end="3600" probability="0.025" departPos="free"/>
+ 	<flow id="ew_3600" route="r_ew" begin="3300" end="3600" probability="0.025" departPos="free"/>
+ </routes>

@@ -1,0 +1,10 @@
+<routes>
+	<route id="r_ns" edges="npn_nt1 nt1_nps"/>
+	<route id="r_sn" edges="nps_nt1 nt1_npn"/>
+	<route id="r_we" edges="npw_nt1 nt1_npe"/>
+	<route id="r_ew" edges="npe_nt1 nt1_npw"/>
+	<flow id="ns_0" route="r_ns" begin="0" end="3600" probability="0.2" departPos="free"/>
+ 	<flow id="sn_0" route="r_sn" begin="0" end="3600" probability="0.2" departPos="free"/>
+ 	<flow id="we_0" route="r_we" begin="0" end="3600" probability="0.2" departPos="free"/>
+ 	<flow id="ew_0" route="r_ew" begin="0" end="3600" probability="0.2" departPos="free"/>
+ </routes>

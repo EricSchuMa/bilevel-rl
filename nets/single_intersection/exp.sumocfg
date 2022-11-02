@@ -1,0 +1,10 @@
+<configuration>
+  <input>
+    <net-file value="exp.net.xml"/>
+    <route-files value="stat.gen.rou.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="3600"/>
+  </time>
+</configuration>
