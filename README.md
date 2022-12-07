@@ -20,3 +20,10 @@ The training logs are saved to the folder `mlruns`. You can access the logs by r
 ```bash
 mlflow ui
 ```
+
+## Examples
+### 1: DQN trained with brake and queue reward
+[![DQN-Agent with brake and queue reward](https://img.youtube.com/vi/UjkyiCG75ms/0.jpg)](https://www.youtube.com/watch?v=UjkyiCG75ms)
+
+### 2: IRDQN trained with brake and queue reward
+[![IRDQN-Agent with brake and queue reward](https://img.youtube.com/vi/Cu0ZR0lyRnw/0.jpg)](https://www.youtube.com/watch?v=Cu0ZR0lyRnw)
