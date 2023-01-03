@@ -1,6 +1,19 @@
 # Learning intrinsic rewards with bilevel reinforcement learning
 This repository holds code for a bilevel meta-gradient reinforcement learning variant of DQN: **Intrinsic Reward Deep Q-Network (IRDQN)**.
 
+## Abstract
+Reinforcement learning teaches intelligent agents how to act in dynamic environments through scalar rewards. There are many feasible ways to define a reward for solving a given task. However, designing rewards requires extensive domain knowledge and engineering efforts.
+
+A popular application for the reinforcement learning approach is traffic signal control, where agents control traffic lights at intersections. Works in this field predominantly define rewards that minimize vehicle travel times. Because travel times are inefficient as a reward – they are delayed, sparse, and influenced by factors outside the agent’s control – researchers use combinations of other traffic metrics as the reward.
+
+This approach can be problematic because specific weight choices might lead to considerable differences in agent performance and learning efficiency. This work aims to mitigate the difficulty of choosing weightings. We investigate this problem with the sustainability-oriented goal of reducing CO2 emissions in traffic.
+
+We studied how sensitive agents are to pre-defined weightings of combined rewards. Our insight for mitigating this sensitivity was to relax the assumption that the weightings are pre-defined by an agent designer. We propose a method that treats the weightings as intrinsic to the agent. Our implementation builds on the famous Deep Q-Network; hence, we call our algorithm the Intrinsic Reward Deep Q-Network (IRDQN). Based on a meta-learning assumption, we consider that the agent’s experience contains knowledge about learning itself. In this work, the IRDQN agent meta-learns reward weights online through gradient descent.
+
+Our results indicate that some task objectives (e.g., a CO2 emission reward) are inefficient for learning, agents are sensitive to combined reward weightings, and meta-learning these weightings can benefit agent performance and learning efficiency. The proposed IRDQN agent learned reward weights that lead to the desired behavior of reducing CO2 emissions.
+
+Our study revealed some interesting limitations of the IRDQN algorithm, such as a lack of exploration and its sensitivity to imbalanced weights. In the future, we plan to investigate these issues further to see if we can improve the algorithm’s performance.
+
 ## Setup
 1. Clone this repository (including submodules): `git clone --recurse_submodules https://github.com/EricSchuMa/bilevel-rl.git`.
 2. Follow the intructions in `sumo_rl/README.md` for installing the SUMO traffic simulator.
